@@ -23,7 +23,7 @@ public class PrintExample {
 		
 		System.out.println("제 이름은 "+name+"이며, 나이는 "+age+"살이고, 혈액형은 "+bloodType+"형 이고, 몸무게는 "+weight+"kg입니다.");
 		
-		System.out.printf("제 이름은 %s이며, 나이는 %03d살이고, 혈액형은 %c형 이고, 몸무게는 %skg 입니다.\n", 
+		System.out.printf("제 이름은 %s이며, 나이는 %03d살이고, 혈액형은 %c형 이고, 몸무게는 %1.2fkg 입니다.\n", 
 				name, age, bloodType, weight);
 //		d 앞에 숫자는 몇칸을 차지할지
 //		%s는 만능
