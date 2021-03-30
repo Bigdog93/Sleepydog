@@ -35,21 +35,27 @@ public class IfMission2another {
 		
 		int stand = 0;		
 		
+		String displayResult, displayGender;
+		
 		if(gender.equals("남")) {
 			stand = MALE_AVG;
+			displayGender = "남자";
 		} else if(gender.equals("여")) {
 			stand = FEMALE_AVG;
+			displayGender = "여자";
 		} else {
-			System.out.println("외계인 저리가");
+			displayGender = "외계인";
 		}
 
 		if(height > stand) {
-			System.out.println("키가 평균보다 크시네요 ㅎ");
+			displayResult = "평균 이상";
 		}else if(height == stand) {
-			System.out.println("키가 딱 평균이시네요!!");
+			displayResult = "평균";
 		}else {
-			System.out.println("키작"+gender);
+			displayResult = "평균 미만";
 		}
+		
+		System.out.printf("%s 평균 키는 %d이며, 고객님의 키는 %d이므로, %s입니다.", displayGender, stand, height, displayResult);
 	}
 
 }
