@@ -18,6 +18,8 @@ public class WhileMission2 {
 //			sum += val;
 //			if(val == 0) break;
 //		} while(true);
+		
+		System.out.println("Pull test");
 
 	}
 }
