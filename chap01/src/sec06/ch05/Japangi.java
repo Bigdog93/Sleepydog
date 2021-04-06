@@ -3,6 +3,7 @@ package sec06.ch05;
 import java.util.Scanner;
 
 public class Japangi {
+	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
@@ -25,9 +26,6 @@ public class Japangi {
 			}else {
 				System.out.println("금액이 모자랍니다.");
 			}
-			
-			
 		}
-		
 	}
 }
