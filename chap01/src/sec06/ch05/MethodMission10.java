@@ -66,7 +66,10 @@ public class MethodMission10 {
 		
 		
 		Japangi2 japan = new Japangi2();
-		while (japan.run) { japan.select(); japan.menuOutput(); }
+		while (japan.run) {
+			japan.select();
+			japan.menuOutput();
+		}
 	}
 }
 

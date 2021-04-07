@@ -21,7 +21,7 @@ public class New_Id {
 class Solution {
 	public String solution(String new_id) {
 		new_id = new_id.toLowerCase();
-		new_id = new_id.replaceAll("[]", "");
+		new_id = new_id.replaceAll("[@#!*]", "");
 		while (new_id.startsWith(".")) {
 			new_id = new_id.substring(1);
 		}

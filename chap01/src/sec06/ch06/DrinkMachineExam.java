@@ -9,10 +9,9 @@ public class DrinkMachineExam {
 		String[] menu = { "콜라", "사이다", "환타", "아이스티", "망고주스" };
 		int[] price = { 1000, 1200, 1300, 1500, 2000 };
 		
-		Drinks[] drinkArr = new Drinks[5];
+		Drinks[] drinkArr = new Drinks[menu.length];
 		for(int i = 0; i < drinkArr.length; i++) {
 			drinkArr[i] = new Drinks(menu[i], price[i]);
-//			drinkArr[i] = drink;
 		}
 		
 		for(int i = 0; i < drinkArr.length; i++) {
