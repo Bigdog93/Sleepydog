@@ -4,7 +4,7 @@ public class Card {
 	private String pattern;
 	private String symbol;
 	private int numVal;
-	Card(String pattern, String symbol) {
+	public Card(String pattern, String symbol) {
 		this.pattern = pattern;
 		this.symbol = symbol;
 	}
